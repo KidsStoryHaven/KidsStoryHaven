@@ -1,21 +1,48 @@
-/* Hide all story sections initially */
-.story-section {
-    display: none;
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
 }
 
-/* Show section when it's active */
-#bedtime-stories-section {
-    display: block;
+#categories ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-/* Optional: Styling for category links */
-.category-link {
+#categories li {
+    margin: 10px 0;
+}
+
+#categories a {
     text-decoration: none;
     font-size: 18px;
     color: #007bff;
     cursor: pointer;
 }
 
-.category-link:hover {
+#categories a:hover {
+    text-decoration: underline;
+}
+
+/* Hide category content by default */
+.category-content {
+    display: none;
+}
+
+/* Style the links for stories */
+.category-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.category-content li {
+    margin: 5px 0;
+}
+
+.category-content a {
+    color: #333;
+    text-decoration: none;
+}
+
+.category-content a:hover {
     text-decoration: underline;
 }
