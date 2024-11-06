@@ -1,69 +1,21 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
+/* Hide all story sections initially */
+.story-section {
+    display: none;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
+/* Show section when it's active */
+#bedtime-stories-section {
+    display: block;
 }
 
-h1 {
-    margin: 0;
-}
-
-section {
-    margin: 20px;
-    padding: 20px;
-}
-
-h2, h3 {
-    color: #333;
-}
-
-footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-/* Category list styles */
-#categories ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-#categories ul li {
-    margin: 10px 0;
-    display: flex;
-    align-items: center;
-}
-
-#categories ul li img {
-    width: 50px; /* Image size */
-    height: 50px;
-    margin-right: 10px;
-    border-radius: 5px; /* Optional: Rounded image corners */
-}
-
-#categories ul li a {
+/* Optional: Styling for category links */
+.category-link {
     text-decoration: none;
-    color: #4CAF50;
-    font-weight: bold;
-    font-size: 1.2em;
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
 }
 
-#categories ul li a:hover {
+.category-link:hover {
     text-decoration: underline;
-}
-
-/* Section styles */
-section p {
-    font-size: 1.2em;
 }
