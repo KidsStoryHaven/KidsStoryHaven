@@ -1,15 +1,54 @@
-<!-- Category List -->
-<section id="categories">
-    <h2>Choose a Category</h2>
-    <ul>
-        <li><a href="#bedtime-stories-section" class="category-link">Bedtime Stories</a></li>
-        <li><a href="#fairy-tales-section" class="category-link">Fairy Tales</a></li>
-    </ul>
-</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids Story Haven</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-<!-- Bedtime Stories Section -->
-<section id="bedtime-stories-section" class="story-section">
-    <h3>Bedtime Stories for Kids</h3>
-    <p>Explore a collection of bedtime stories for kids...</p>
-    <!-- More content related to bedtime stories goes here -->
-</section>
+    <!-- Category List -->
+    <section id="categories">
+        <h2>Story Categories</h2>
+        <ul>
+            <li><a href="#" class="category-link" data-target="bedtime-stories">Bedtime Stories</a></li>
+            <li><a href="#" class="category-link" data-target="fairy-tales">Fairy Tales</a></li>
+            <li><a href="#" class="category-link" data-target="moral-stories">Moral Stories</a></li>
+            <!-- Add more categories as needed -->
+        </ul>
+    </section>
+
+    <!-- Bedtime Stories Section (Initially Hidden) -->
+    <section id="bedtime-stories" class="category-content">
+        <h3>Bedtime Stories</h3>
+        <ul>
+            <li><a href="#">The Little Prince</a></li>
+            <li><a href="#">The Moon and The Stars</a></li>
+            <li><a href="#">The Magic Pillow</a></li>
+        </ul>
+    </section>
+
+    <!-- Fairy Tales Section (Initially Hidden) -->
+    <section id="fairy-tales" class="category-content">
+        <h3>Fairy Tales</h3>
+        <ul>
+            <li><a href="#">Cinderella</a></li>
+            <li><a href="#">The Ugly Duckling</a></li>
+            <li><a href="#">Snow White</a></li>
+        </ul>
+    </section>
+
+    <!-- Moral Stories Section (Initially Hidden) -->
+    <section id="moral-stories" class="category-content">
+        <h3>Moral Stories</h3>
+        <ul>
+            <li><a href="#">The Honest Woodcutter</a></li>
+            <li><a href="#">The Tortoise and the Hare</a></li>
+            <li><a href="#">The Boy Who Cried Wolf</a></li>
+        </ul>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
